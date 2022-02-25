@@ -1,7 +1,15 @@
 using ContosoPizza.Models;
 using ContosoPizza.Services;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Schema;
 using Newtonsoft.Json;
+using System.Text;
+using Microsoft.AspNetCore.Http.Features;
+
+
+
+
 
 namespace ContosoPizza.Controllers;
 
@@ -63,7 +71,11 @@ public ActionResult<Pizza> Get(int id)
     var pizza = PizzaService.Get(id);
 
     if(pizza == null)
-        return NotFound();
+    {
+    
+        throw new Exception("This ID does not exist.");
+        //return NotFound();
+    }
 
     return pizza;
 }
@@ -71,15 +83,9 @@ public ActionResult<Pizza> Get(int id)
     // POST action
     [HttpPost]
 public IActionResult Create(Pizza pizza)
-{    
-    try{        
+{   
     PizzaService.Add(pizza);
     return CreatedAtAction(nameof(Create), new { id = pizza.Id }, pizza);
-    }
-    catch (Exception)
-       {
-        return StatusCode(446,"Invalid Request. API expects this format {name:Hawaii, isGlutenFree:false}");
-       }
 }
 
     // PUT action
