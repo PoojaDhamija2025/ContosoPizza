@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BKcmNYLNiSDeFhUjNjEGkNr1Bw/krZYQrbLX7bRzzQx7Fx26slzEcA5YsrMnuaK0QzeDuQA5oMp8PhDAvnF7PQ==",
+  "dgSpecHash": "yN8YmXMImItVSQcs9Hau+sE0AFsJYXBbGbrk05EcgCRYeAkUASAaniaQwumpOhP4pml7l1v8/1dYqgCkWW40Fg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\310259821\\ContosoPizza\\ContosoPizza.csproj",
+  "projectFilePath": "C:\\Users\\310259821\\Code\\contosopizza\\ContosoPizza.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\310259821\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\310259821\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
