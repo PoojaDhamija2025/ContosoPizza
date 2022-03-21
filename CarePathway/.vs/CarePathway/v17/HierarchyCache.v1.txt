@@ -1,0 +1,483 @@
+﻿++Solution 'CarePathway' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:CarePathway.sln
+++CarePathway
+i:{00000000-0000-0000-0000-000000000000}:CarePathway
+++Connected Services 
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1211
+++Dependencies
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1210
+++Properties
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\properties\
+++launchSettings.json
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\properties\launchsettings.json
+++wwwroot
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\
+++css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\css\
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\js\
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\
+++FindObservationValue.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\js\findobservationvalue.js
+++ObservationForPatientsList.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\js\observationforpatientslist.js
+++ObservationList.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\js\observationlist.js
+++PatientList.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\js\patientlist.js
+++site.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\js\site.js
+++lib
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\
+++favicon.ico
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\favicon.ico
+++Controllers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\controllers\
+++ObservationController.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\controllers\observationcontroller.cs
+++ObservationForPatientController.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\controllers\observationforpatientcontroller.cs
+++PatientController.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\controllers\patientcontroller.cs
+++PatientsObservationController.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\controllers\patientsobservationcontroller.cs
+++Migrations
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\
+++Model
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\model\
+++ApplicationDbContext.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\model\applicationdbcontext.cs
+++Observation.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\model\observation.cs
+++Patient.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\model\patient.cs
+++PatientObservations.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\model\patientobservations.cs
+++PatientsObservationsTbl.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\model\patientsobservationstbl.cs
+++Pages
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\
+++ObservationList
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\observationlist\
+++Index.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\observationlist\index.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\observationsforpatients\index.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\patientlist\index.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\index.cshtml
+++Index.cshtml.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\observationlist\index.cshtml.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\observationsforpatients\index.cshtml.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\patientlist\index.cshtml.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\index.cshtml.cs
+++ObservationsForPatients
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\observationsforpatients\
+++ObservationValue.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\observationsforpatients\observationvalue.cshtml
+++ObservationValue.cshtml.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\observationsforpatients\observationvalue.cshtml.cs
+++PatientList
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\patientlist\
+++Create.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\patientlist\create.cshtml
+++Edit.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\patientlist\edit.cshtml
+++Edit.cshtml.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\patientlist\edit.cshtml.cs
+++Shared
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\shared\
+++_Layout.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\shared\_validationscriptspartial.cshtml
+++_ViewImports.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\_viewstart.cshtml
+++Error.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\error.cshtml
+++Privacy.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\privacy.cshtml
+++appsettings.json
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\appsettings.json
+++appsettings.Development.json
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\appsettings.development.json
+++Program.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\program.cs
+++No service dependencies discovered
+++Analyzers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:analyzers
+++Frameworks
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:frameworks
+++Packages
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:packages
+++site.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\css\site.css
+++bootstrap
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\
+++jquery
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery\
+++jquery-validation
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation-unobtrusive\
+++20220315092722_AddPatientToDb.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\20220315092722_addpatienttodb.cs
+++20220315115654_ChangeColumnTypesPatientToDb.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\20220315115654_changecolumntypespatienttodb.cs
+++20220316112904_AddObservationToDB.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\20220316112904_addobservationtodb.cs
+++20220317114455_AddPatientsAndObservationsToDB.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\20220317114455_addpatientsandobservationstodb.cs
+++20220318090043_AddPatientsObservationsTblToDB.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\20220318090043_addpatientsobservationstbltodb.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\applicationdbcontextmodelsnapshot.cs
+++Create.cshtml.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\patientlist\create.cshtml.cs
+++_Layout.cshtml.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\shared\_layout.cshtml.css
+++Error.cshtml.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\error.cshtml.cs
+++Privacy.cshtml.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\privacy.cshtml.cs
+++Microsoft.AspNetCore.Analyzers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\microsoft.netcore.app
+++EntityFramework (6.4.4)
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1238
+++Microsoft.AspNet.WebPages (3.2.7)
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1236
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.3)
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1232
+++Microsoft.EntityFrameworkCore (6.0.3)
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1233
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.3)
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1234
+++Microsoft.EntityFrameworkCore.Tools (6.0.3)
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1237
+++Newtonsoft.Json (13.0.1)
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1235
+++dist
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery\dist\
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery\license.txt
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++20220315092722_AddPatientToDb.Designer.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\20220315092722_addpatienttodb.designer.cs
+++20220315115654_ChangeColumnTypesPatientToDb.Designer.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\20220315115654_changecolumntypespatienttodb.designer.cs
+++20220316112904_AddObservationToDB.Designer.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\20220316112904_addobservationtodb.designer.cs
+++20220317114455_AddPatientsAndObservationsToDB.Designer.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\20220317114455_addpatientsandobservationstodb.designer.cs
+++20220318090043_AddPatientsObservationsTblToDB.Designer.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\migrations\20220318090043_addpatientsobservationstbltodb.designer.cs
+++jquery.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++Script Documents
+++VM5
+++jquery.dataTables.min.js
+++jquery-ui.min.js
+++sweetalert.min.js
+++toastr.min.js
+++aspnetcore-browser-refresh.js
+++ContentScript.js
+++browser-polyfill.js
+++content.js
+++ObservationValue
+++VM30
+++VM31
+++VM32
+++VM33
+++VM34
+++VM35
+++VM43
+++VM44
+++VM45
+++VM46
+++VM47
+++VM48
+++VM49
+++VM50
+++VM51
+++VM52
+++VM53
+++VM54
+++VM55
+++VM56
+++VM57
+++VM119
+++VM120
+++VM121
+++VM122
+++VM123
+++VM124
+++VM125
+++VM126
+++VM127
+++VM128
+++VM129
+++VM130
+++VM131
+++VM132
+++VM133
+++VM36
+++VM37
+++VM38
+++VM39
+++VM40
+++VM41
+++VM42
+++VM58
+++VM59
+++VM60
+++VM61
+++VM62
+++VM63
+++VM64
+++VM65
+++VM66
+++VM67
+++VM68
+++VM69
+++VM70
+++VM71
+++VM72
+++VM73
+++VM74
+++VM75
+++VM76
+++VM77
+++VM78
+++VM79
+++VM80
+++VM81
+++VM82
+++VM83
+++VM84
+++VM85
+++VM86
+++VM87
+++VM88
+++VM89
+++VM90
+++VM91
+++VM92
+++VM93
+++VM94
+++VM95
+++VM96
+++VM97
+++VM98
+++VM99
+++VM100
+++VM101
+++VM102
+++VM103
+++VM104
+++VM105
+++VM106
+++VM107
+++VM108
+++VM109
+++VM110
+++VM111
+++VM112
+++VM113
+++VM114
+++VM115
+++VM116
+++VM117
+++VM118
+++VM27
+++VM28
+++VM29
+++VM134
+++VM135
+++VM136
+++VM137
+++VM138
+++VM139
+++VM140
+++VM141
+++VM143
+++VM144
+++VM145
+++VM146
+++VM147
+++VM148
+++VM149
+++VM150
+++VM151
+++VM152
+++VM153
+++VM154
+++VM155
+++VM156
+++VM157
+++VM158
+++VM159
+++VM160
+++VM161
+++VM163
+++VM164
+++VM165
+++Upsert.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\patientlist\upsert.cshtml
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\observationlist\upsert.cshtml
+++Upsert.cshtml.cs
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\pages\patientlist\upsert.cshtml.cs
+++PatientCRUD.js
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:c:\users\310259821\source code\carepathway\wwwroot\js\patientcrud.js
+++Upsert
+++chromewebdata
+++VM12
+++VM13
+++Index1.cshtml
+++Index1.cshtml.cs
+++_Upsert.cshtml
+++_Upsert.cshtml.cs
+++SQL Server Database (ConnectionStrings:DefaultConnection)
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1263
+++SQL Server Database dependency with connectionId 'ConnectionStrings:DefaultConnection' is detected
+i:{d8e5d5e0-9d99-4291-9091-8868d1c519fe}:>1264

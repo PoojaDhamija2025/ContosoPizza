@@ -1,0 +1,112 @@
+﻿@page
+@model CarePathway.Pages.PatientList.IndexModel
+<br />
+<div class="container row p-0 m-0">
+    <div class="col-10">
+        <h2 class="text-info"> Patient List </h2>
+    </div>
+    <div class="col-2">
+        <a asp-page="Upsert" class="btn btn-info form-control"> Create new Patient</a>
+    </div>
+    <div class="col-12 border p-3 mt-3" hidden="hidden">
+        <form method="post">
+            @if (Model.Patients.Count() > 0)
+            {
+                <table class="table table-striped border">
+                    <tr class="table-secondary">
+                        <th>
+                            <label asp-for="Patients.FirstOrDefault().Name"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Patients.FirstOrDefault().DOB"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Patients.FirstOrDefault().Address"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Patients.FirstOrDefault().AttendentName"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Patients.FirstOrDefault().AttendentPhoneNumber"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Patients.FirstOrDefault().AttendentRelationship"></label>
+                        </th>
+                        <th></th>
+                    </tr>
+                    @foreach (var item in Model.Patients)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(m=>item.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m=>item.DOB)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m=>item.Address)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m=>item.AttendentName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m=>item.AttendentPhoneNumber)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m=>item.AttendentRelationship)
+                            </td>
+                            <td>
+                                <button asp-page-handler="Delete" asp-route-id="@item.Id" onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-sm">Delete</button>
+                                <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm">Edit</a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+
+            }
+            else
+            {
+                <p>No Patients Available.</p>
+            }
+        </form>
+
+    </div>
+    <div class="col-12" style="text-align:center" hidden="hidden">
+        <br />
+        <span class="h3 text-info">OR</span>
+        <br /><br />
+
+    </div>
+    <div class="col-12" style="text-align:center">
+        <table id="patient_load" class="table table-striped table-bordered" style="width:100%">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        MRN
+                    </th>
+                    <th>
+                        DOB
+                    </th>
+                    <th>
+                        AttendentName
+                    </th>
+                    <th>
+                        AttendentPhoneNumber
+                    </th>
+                    <th>
+                        AttendentRelationship
+                    </th>
+                    <th> 
+                       
+                    </th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+@section Scripts{
+<script src="~/js/PatientList.js"></script>
+}

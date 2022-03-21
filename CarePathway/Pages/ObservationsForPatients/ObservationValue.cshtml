@@ -1,0 +1,47 @@
+﻿@page
+@model CarePathway.Pages.ObservationsForPatients.ObservationValueModel
+<br />
+<h2 class="text-info"> Find Observation Value</h2>
+<br />
+<div class="border container" style="padding:30px">
+  <div class="form-group row">
+              <div class="col-3">
+                <label>Patient Name</label>
+            </div>
+            <div class="col-6">
+               <input id="ptName" class="form-control" />
+            </div>
+         
+   </div>
+   
+            <br />
+        <div class="form-group row">
+            <div class="col-3">
+                <label>Observation Type</label>
+            </div>
+            <div class="col-6">
+                <input id="obType"  class="form-control" />
+            </div>
+         
+        </div><br />
+        <div class="form-group row">
+            <div class="col-3">
+                <label>Observation Index</label>
+            </div>
+            <div class="col-6">
+                <input id="obIndex"  class="form-control" />
+            </div>
+        </div>         
+        <br />
+        <div class="form-group row">
+            <div class="col-3">
+                <a href="javascript:findValue()" class="btn btn-success form-control">Search</a>
+            </div>
+
+        </div>
+</div>
+@section Scripts{
+
+    <script src="~/js/FindObservationValue.js"></script>
+}
+

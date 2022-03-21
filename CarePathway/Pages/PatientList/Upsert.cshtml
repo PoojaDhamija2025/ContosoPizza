@@ -1,0 +1,109 @@
+﻿@page
+@model CarePathway.Pages.PatientList.UpsertModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<br />
+<h2 class="text-info"> @(Model.Patient.Id!=0?"Edit":"Create") Patient</h2>
+<br />
+<div class="border container" style="padding:30px">
+   <form method="post" asp-controller="PatientController" >
+  if(@(Model.Patient.Id!=0))
+        {
+        <input type="hidden" asp-for="Patient.Id" />
+        }
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Patient.Name"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Patient.Name" class="form-control" />
+            </div>
+            <span asp-validation-for="Patient.Name" class="text-danger"></span>
+        </div><br />
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Patient.DOB"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Patient.DOB" class="form-control" />
+            </div>
+            <span asp-validation-for="Patient.DOB" class="text-danger"></span>
+        </div><br />
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Patient.Address"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Patient.Address" class="form-control" />
+            </div>
+            <span asp-validation-for="Patient.Address" class="text-danger"></span>
+        </div><br />
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Patient.PhoneNumber"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Patient.PhoneNumber" class="form-control" />
+            </div>
+            <span asp-validation-for="Patient.PhoneNumber" class="text-danger"></span>
+        </div><br />
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Patient.AdharCardNumber"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Patient.AdharCardNumber" class="form-control" />
+            </div>
+            <span asp-validation-for="Patient.AdharCardNumber" class="text-danger"></span>
+        </div><br />
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Patient.AttendentName"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Patient.AttendentName" class="form-control" />
+            </div>
+            <span asp-validation-for="Patient.AttendentName" class="text-danger"></span>
+        </div><br />
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Patient.AttendentPhoneNumber"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Patient.AttendentPhoneNumber" class="form-control" />
+            </div>
+            <span asp-validation-for="Patient.AttendentPhoneNumber" class="text-danger"></span>
+        </div>
+        <br />
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Patient.AttendentRelationship"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Patient.AttendentRelationship" class="form-control" />
+            </div>
+            <span asp-validation-for="Patient.AttendentRelationship" class="text-danger"></span>
+        </div>
+        <br />
+        <div class="form-group row">
+            <div class="col-3  offset-3">
+                <button type="submit"  class="btn btn-primary form-control" >@(Model.Patient.Id!=0?"Update":"Create")</button>
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" class="btn btn-success form-control">Back to Patients list.</a>
+            </div>
+           <button type="submit" asp-controller="PatientController"  asp-action="Create">Register</button>
+        </div>
+
+
+
+      </form> 
+
+</div>
+@section Scripts{
+        <script src="~/js/PatientCRUD.js"></script>
+    <partial name="_ValidationScriptsPartial" />
+
+}
+
+
